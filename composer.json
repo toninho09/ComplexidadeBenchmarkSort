@@ -1,0 +1,9 @@
+{
+    "name": "root/complexidade",
+    "require": {
+        "devster/ubench": "^1.2"
+    },
+    "autoload": {
+        "psr-4": {"Benchmark\\": "bin/"}
+    }
+}
