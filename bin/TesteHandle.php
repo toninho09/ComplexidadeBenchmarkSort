@@ -49,6 +49,6 @@ class TesteHandle
   }
 
   public function showResults($key,\Ubench $result){
-    $this->input->println("Teste #$key - Tempo : ". $result->getTime() ."- Consumo de memoria : ". $result->getMemoryUsage());
+    $this->input->println("Teste #$key - Tempo : ". $result->getTime() ." - Consumo de memoria : ". $result->getMemoryUsage());
   }
 }
