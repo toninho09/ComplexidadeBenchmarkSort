@@ -26,7 +26,7 @@ class MergeSort implements SortInterface
 
   private function merge_sort($left, $right){
     $res = array();
-    while (count($left) > 0 && count($right) > 0){
+      while (count($left) > 0 && count($right) > 0){
       if($left[0] > $right[0]){
         $res[] = $right[0];
         $right = array_slice($right , 1);

@@ -9,6 +9,7 @@ $input->println("Digite a opcao desejada:");
 $input->println("1 - Insertion Sort");
 $input->println("2 - Select Sort");
 $input->println("3 - Merge Sort");
+$input->println("4 - PHP Sort");
 $input->println("0 - Sair");
 
 $op = $input->get();
@@ -22,6 +23,9 @@ switch ($op){
     break;
   case 3:
     $sort = new \Benchmark\Sort\MergeSort();
+    break;
+  case 4:
+    $sort = new \Benchmark\Sort\NativeSort();
     break;
   case 0:
     return;
